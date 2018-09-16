@@ -1,0 +1,119 @@
+/*
+* @Author: Mickey
+* @Date:   2018-08-15 15:46:21
+* @Last Modified by:   Mickey
+* @Last Modified time: 2018-08-15 16:05:18
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+.top{
+	width: 100%;
+	height: 4.96rem;
+	background-color: #10a7ef;
+	position: relative;
+}
+.top .back{
+	display: block;
+	width: 0.3rem;
+	height: 1rem;
+	background-image: url('../img/返回.png');
+	background-size: 0.3rem 0.55rem;
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-left: 0.24rem;
+}
+.top .title span:nth-child(1){
+	color: #fff;
+	font-size: 0.24rem;
+	margin-left: 0.24rem;
+	position: absolute;
+	top: 1.4rem;
+}
+.top .title span:nth-child(2){
+	width: 0.58rem;
+	height: 0.3rem;
+	border: 2px solid #fff;
+	color: #fff;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.24rem;
+	position: absolute;
+	top: 1.4rem;
+	left: 1.7rem;
+}
+.top .title span:nth-child(4){
+	color: #fff;
+	font-size: 0.36rem;
+	position: absolute;
+	left: 0.24rem;
+	top: 1.9rem;
+}
+.top .title span:nth-child(6){
+	color: #fff;
+	font-size: 0.32rem;
+	position: absolute;
+	left: 0.24rem;
+	top: 2.46rem;
+}
+.top .title .right{
+	width: 0.3rem;
+	height: 0.55rem;
+	background-image: url('../img/返回1.png');
+	background-size: 0.3rem 0.55rem;
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 0.24rem;
+	top: 1.85rem;
+}
+.center{
+	width: 9.1rem;
+	height: 2.64rem;
+	margin: 0 auto;
+	background-color: #fff;
+	background-image: url('../img/确认订单1.png');
+	background-repeat: no-repeat;
+	background-size: 9.1rem 2.64rem;
+	position: absolute;
+	box-shadow: 0 0.04rem 0.03rem 0.03rem rgba(34, 177, 239, 0.55);
+	border-radius: 0.3rem;
+	top: 3.5rem;
+	left: 0.24rem;
+}
+.cover{
+	width: 100%;
+	height: 6.3rem;
+	background-color: rgba(255, 255, 255, 0.6);
+	position: fixed;
+	top: 0
+}
+.container{
+	width: 100%;
+	height: 10rem;
+	margin-top: 2.2rem;
+	box-shadow: 0 0 0.03rem 0.03rem rgba(34, 177, 239, 0.55);
+	position: relative;
+	background-image: url('../img/指纹支付.png');
+	background-repeat: no-repeat;
+	background-size: 100% 10rem;
+}
+.container .back{
+	display: block;
+	width: 0.6rem;
+	height: 0.6rem;
+	position: absolute;
+	top: 0.65rem;
+	right: 0.47rem;
+}
+.container .next{
+	display: block;
+	width: 2.7rem;
+	height: 2.7rem;
+	position: absolute;
+	top: 4.92rem;
+	right: 3.46rem;
+}

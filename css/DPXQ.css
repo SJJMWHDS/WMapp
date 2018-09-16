@@ -1,0 +1,300 @@
+/*
+* @Author: Mickey
+* @Date:   2018-08-14 14:17:39
+* @Last Modified by:   Mickey
+* @Last Modified time: 2018-08-14 17:11:40
+*/
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+.dpxq{
+	position: relative;
+}
+.top{
+	width: 100%;
+	height: 1rem;
+	background-color: #25b3ee;
+	padding-left: 0.24rem;
+	padding-left: 0.24rem;
+	margin-bottom: 0.2rem;
+	position: fixed;
+	z-index: 999;
+}
+.top .back{
+	width: 0.22rem;
+	height: 1rem;
+	float: left;
+	background-image: url('../img/返回.png');
+	background-repeat: no-repeat;
+	background-position: 0 center;
+}
+.top .XQ{
+	width: 3.18rem;
+	height: 1rem;
+	margin: 0 auto;
+	background-image: url('../img/店铺详情页1.png');
+	background-size: 3.18rem 1rem;
+	background-repeat: no-repeat;
+}
+.top .fx{
+	width: 0.4rem;
+	height: 1rem;
+	background-image: url('../img/店铺分享.png');
+	background-repeat: no-repeat;
+	background-position: 0 center;
+	position: absolute;
+	right: 0.24rem;
+	top: 0;
+}
+.top .ss{
+	width: 0.4rem;
+	height: 1rem;
+	background-image: url('../img/店铺搜索.png');
+	background-repeat: no-repeat;
+	background-position: 0 center;
+	position: absolute;
+	right: 0.84rem;
+	top: 0;
+}
+.bb{
+	height: 14rem;
+	overflow: scroll;
+    overflow: hidden;
+}
+.banner-box{
+	width: 9.1rem;
+	height: 3.38rem;
+	padding-left: 0.24rem;
+	padding-right: 0.24rem;
+	background-image: url('../img/店铺图标.png');
+	background-repeat: no-repeat;
+	background-size: 100% 3.38rem;
+	margin: 0 auto;
+	box-shadow: 0 0.06rem 0.13rem 0.04rem #0696dd;
+	margin-top: 1.2rem;
+	position: relative;
+}
+.banner .title-q{
+	font-size: 0.3rem;
+	margin-left: 0.24rem;
+	position: absolute;
+	top: 4.75rem;
+
+}
+.banner .title-w{
+	width: 0.66rem;
+	height: 0.34rem;
+	border: 2px solid #df1b4d;
+	text-align: center;
+	line-height: 0.3rem;
+	position: absolute;
+	top: 4.78rem;
+	left: 1.2rem;
+	border-radius: 0.5rem;
+	color: #df1b4d;
+	font-size: 0.26rem;
+}
+.banner .title-e{
+	font-size: 0.2rem;
+	color: #333;
+	position: absolute;
+	top: 5.1rem;
+	left: 0.24rem;
+}
+.banner .title-r{
+	font-size: 0.4rem;
+	color: #df1b4d;
+	position: absolute;
+	top: 5.3rem;
+	right: 0.75rem;
+}
+.center .spxq{
+	width: 2.45rem;
+	height: 0.45rem;
+	background-image: url('../img/店铺详情页2.png');
+	position: absolute;
+	top: 6.4rem;
+	left: 0.24rem;
+}
+.center span{
+	font-size: 0.3rem;
+	color: #333;
+	position: absolute;
+	top: 6.5rem;
+	left: 3.4rem;
+}
+.center .more{
+	width: 1.53rem;
+	height: 0.6rem;
+	background-color: #20b0ef;
+	border-radius: 0.5rem;
+	position: absolute;
+	top: 6.26rem;
+	right: 0.4rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.6rem;
+	font-size: 0.28rem;
+}
+.center .tx{
+	width: 0.61rem;
+	height: 0.61rem;
+	background-image: url('../img/店铺详情页3.png');
+	position: absolute;
+	top: 7.1rem;
+	left: 0.24rem;
+}
+.center .name{
+	color: #333;
+	font-size: 0.26rem;
+	position: absolute;
+	top: 7rem;
+	left: 1.1rem;
+}
+.center .star{
+	color: #ffff00;
+	font-size: 0.36rem;
+	position: absolute;
+	top: 7.3rem;
+	left: 1.05rem;
+}
+.center .title{
+	width: 9.1rem;
+	height: 0.8rem;
+	color: #333;
+	font-size: 0.3rem;
+	text-align: left;
+	line-height: 0.8rem;
+	border-radius: 0.15rem;
+	background-color: #f2f0f1;
+	position: absolute;
+	top: 8.1rem;
+	left: 0.24rem;
+}
+.tj{
+	margin-bottom: 2.1rem;
+}
+.container h1{
+	position: absolute;
+	font-size: 0.32rem;
+	color: #333;
+	top: 9.8rem;
+	left: 0.24rem;
+}
+.container .tj{
+	width: 9.1rem;
+	height: 4.02rem;
+	position: absolute;
+	top: 10.4rem;
+    left: 0.24rem;
+	
+}
+.container ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.container li{
+	width: 4rem;
+	height: 4.8rem;
+	border-radius: 0.2rem;
+	box-shadow: 0 0.06rem 0.15rem 0.02rem #20b0ef;
+}
+.container .name{
+	font-size: 0.3rem;
+	position: absolute;
+	top: 2.9rem;
+	left: 1.38rem;
+}
+.container .num{
+	font-size: 0.2rem;
+	position: absolute;
+	top: 3.4rem;
+	left: 1.6rem;
+}
+.container .price{
+	font-size: 0.38rem;
+	position: absolute;
+	top: 4rem;
+	left: 1.1rem;
+	color: #e01818;
+}
+.container .name-q{
+	font-size: 0.3rem;
+	position: absolute;
+	top: 2.9rem;
+	left: 6.5rem;
+}
+.container .num-q{
+	font-size: 0.2rem;
+	position: absolute;
+	top: 3.4rem;
+	left: 6.7rem;
+}
+.container .price-q{
+	font-size: 0.38rem;
+	position: absolute;
+	top: 4rem;
+	left: 6.2rem;
+	color: #e01818;
+}
+.container li:nth-child(1){
+	background-image: url('../img/水蜜桃挞.png');
+	background-repeat: no-repeat;
+	background-size: 4rem 2.8rem;
+}
+.container li:nth-child(2){
+	background-image: url('../img/大果粒柚子茶超大杯.png');
+	background-repeat: no-repeat;
+	background-size: 4rem 2.8rem;
+}
+.bottom{
+	width: 100%;
+	height: 1rem;
+	box-shadow: 0 0.04rem 0.08rem 0.03rem #22b1ef;
+	background-color: #fff;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	padding-left: 0.24rem;
+	padding-right: 0.24rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.bottom .shop{
+	width: 0.92rem;
+	height: 0.92rem;
+	background-image: url('../img/店铺详情页购物车.png');
+	background-repeat: no-repeat;
+	background-size: 0.92rem 0.92rem;
+	left: 0.24rem;
+	margin-bottom: 0.33rem;
+}
+.bottom span{
+	font-size: 0.24rem;
+	color: #6b6b6b;
+	position: absolute;
+	top: 0.18rem;
+	left: 1.4rem;
+	z-index: 999;
+}
+.bottom .zf{
+	width: 1.7rem;
+	height: 0.65rem;
+	position: absolute;
+	font-size: 0.3rem;
+	line-height: 0.61rem;
+	text-align: center;
+	color: #fff;
+	border-radius: 0.2rem;
+	background-color: #6b6b6b;
+	border: 2px solid #c8c8c8;
+	right: 0.24rem;
+	top: 0.16rem;
+	z-index: 999;
+}

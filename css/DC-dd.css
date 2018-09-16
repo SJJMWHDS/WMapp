@@ -1,0 +1,376 @@
+/*
+* @Author: Mickey
+* @Date:   2018-08-09 09:45:00
+* @Last Modified by:   Mickey
+* @Last Modified time: 2018-08-15 13:50:22
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+.DC{
+	width: 7.5rem;
+	background-color: #fff;
+	position: relative;
+}
+.top{
+	width: 100%;
+	height: 3rem;
+	background-color: #26b3ee;
+	padding-left: 0.24rem;
+	padding-right: 0.24rem;
+	position: relative; 
+	/* position: relative; */
+}
+.top .back{
+	display: block;
+	width: 0.22rem;
+	height: 1rem;
+	background-image: url('../img/返回.png');
+	background-size: 0.22rem 0.4rem;
+	background-repeat: no-repeat;
+	background-position: 0 0.3rem;
+}
+.top .share{
+	display: block;
+	width: 0.4rem;
+	height: 1rem;
+	background-image: url('../img/店铺分享.png');
+	background-size: 0.4rem 0.4rem;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0.3rem;
+	right: 0.24rem;
+}
+.top .favorite{
+	display: block;
+	width: 0.4rem;
+	height: 1rem;
+	background-image: url('../img/店铺收藏.png');
+	background-size: 0.4rem 0.4rem;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0.3rem;
+	right: 0.79rem;
+}
+.top .search{
+	display: block;
+	width: 0.4rem;
+	height: 1rem;
+	background-image: url('../img/店铺搜索.png');
+	background-size: 0.4rem 0.4rem;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0.3rem;
+	right: 1.34rem;
+}
+.top .content .icon{
+	display: block;
+	width: 2.38rem;
+	height: 1.97rem;
+	background-image: url('../img/店铺图标.png');
+	background-repeat: no-repeat;
+	background-size: 2.38rem 1.97rem;
+	position: absolute;
+	bottom: 0;
+	left: 0.24rem;
+}
+.top .content .name{
+	font-size: 0.28rem;
+	position: absolute;
+	top: 1rem;
+	left: 3rem;
+}
+.top .content .star{
+	font-size: 0.28rem;
+	position: absolute;
+	top: 1rem;
+	left: 4.2rem;
+	color: #ff8800;
+}
+.top .content .dot{
+	font-size: 0.18rem;
+	position: absolute;
+	top: 1.3rem;
+	left: 3rem;
+	color: #c2c5c7;
+}
+.top .content .MJ{
+	width: 0.65rem;
+	height: 0.3rem;
+	border: 0.03rem solid #fff;
+	border-radius: 0.5rem;
+	position: absolute;
+	top: 1.6rem;
+	left: 3rem;
+	color: #fff;
+	font-size: 0.22rem;
+	text-align: center;
+	line-height: 0.24rem;
+}
+.top .content .MJQ{
+	position: absolute;
+	top: 1.65rem;
+	left: 4rem;
+	color: #fff;
+	font-size: 0.18rem;
+}
+.top .content .TJ{
+	width: 0.65rem;
+	height: 0.3rem;
+	border: 0.03rem solid #fff;
+	border-radius: 0.5rem;
+	position: absolute;
+	top: 2.1rem;
+	left: 3rem;
+	color: #fff;
+	font-size: 0.22rem;
+	text-align: center;
+	line-height: 0.24rem;
+}
+.top .content .TJQ{
+	position: absolute;
+	top: 2.15rem;
+	left: 4rem;
+	color: #fff;
+	font-size: 0.18rem;
+}
+.top .content .distance{
+	background-image: url('../img/定位白色.png');
+	background-repeat: no-repeat;
+	background-size: 0.17rem 0.21rem;
+	position: absolute;
+	top: 2.6rem;
+	left: 3rem;
+	font-size: 0.18rem;
+	color: #fff;
+}
+.top .content .time{
+	background-image: url('../img/时间白色.png');
+	background-repeat: no-repeat;
+	background-size: 0.17rem 0.21rem;
+	position: absolute;
+	top: 2.6rem;
+	left: 4rem;
+	font-size: 0.18rem;
+	color: #fff;
+}
+.choice{
+	width: 7.5rem;
+	height: 1rem;
+	box-shadow: 0 0.03rem 0 0 #dedfe0;
+	background-color: #fff;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-left: 0.24rem;
+	padding-right: 0.24rem;
+	font-size: 0.36rem;
+	line-height: 1rem;
+	position: absolute;
+	top: 3rem;
+}
+.choice .order{
+	width: 0.8rem;
+	height: 0.08rem;
+	border-radius: 0.5rem;
+	position: absolute;
+	background-color: #1fafef;
+	left: 1.03rem;
+	top: 0.92rem;
+}
+.menu{
+	position: fixed;
+	left: 0;
+	top: 4.03rem;
+}
+.menu li{
+	width: 1.85rem;
+	height: 0.9rem;
+	background-color: #f7f7f7;
+	float: top;
+	font-size: 0.28rem;
+	text-align: center;
+	line-height: 0.9rem;
+}
+.list{
+	width: 5.23rem;
+	height: 10.6rem;
+	margin-top: 1rem;
+    margin-left: 2.27rem;
+}
+.list li{
+	width: 5.23rem;
+	height: 1.43rem;
+	margin-right: 0.24rem;
+	float: right ;
+    margin-top: 0.2rem;
+	box-shadow: 0 0.02rem 0.1rem 0.03rem #22b1ef;
+	margin-bottom: 0.3rem;
+	position: relative;
+}
+.list .name{
+	font-size: 0.24rem;
+	margin-left: 1.7rem;
+	position: absolute;
+	top: 0.13rem;
+}
+.list .dot{
+	font-size: 0.24rem;
+	margin-left: 1.7rem;
+	position: absolute;
+	top: 0.35rem;
+	color: #cac8c8;
+}
+.list .star{
+	font-size: 0.24rem;
+	margin-left: 1.7rem;
+	position: absolute;
+	top: 0.55rem;
+	color: #ffff00;
+}
+.list .money{
+	font-size: 0.24rem;
+	margin-left: 1.7rem;
+	position: absolute;
+	top: 0.9rem;
+}
+.list .mast{
+	width: 0.52rem;
+	height: 0.25rem;
+	position: absolute;
+	background-image: url('../img/订餐1.png');
+	background-repeat: no-repeat;
+	background-size: 0.52rem 0.25rem;
+	right: 0.45rem;
+	top: 0.05rem;
+	opacity: 1;
+}
+.list .num{
+	display: block;
+	width: 0.25rem;
+	height: 0.25rem;
+	background-image: url('../img/数量+.png');
+	background-repeat: no-repeat;
+	background-size: 0.25rem 0.25rem;
+	position: absolute;
+	right: 0.05rem;
+	top:0.05rem;
+}
+.list li:nth-child(1){
+	background-image: url('../img/水蜜桃挞.png');
+	background-repeat: no-repeat;
+	background-size: 1.13rem 1.1rem;
+	background-position: 0.25rem center;
+}
+.list li:nth-child(2){
+	background-image: url('../img/黑僧林蛋糕.png');
+	background-repeat: no-repeat;
+	background-size: 1.13rem 1.1rem;
+	background-position: 0.25rem center;
+}
+.list li:nth-child(3){
+	background-image: url('../img/烧仙草奶茶.png');
+	background-repeat: no-repeat;
+	background-size: 1.13rem 1.1rem;
+	background-position: 0.25rem center;
+}
+.list li:nth-child(4){
+	background-image: url('../img/大果粒柚子茶超大杯.png');
+	background-repeat: no-repeat;
+	background-size: 1.13rem 1.1rem;
+	background-position: 0.25rem center;
+}
+.list li:nth-child(5){
+	background-image: url('../img/豆沙圈面包.png');
+	background-repeat: no-repeat;
+	background-size: 1.13rem 1.1rem;
+	background-position: 0.25rem center;
+}
+.bottom{
+	width: 100%;
+	height: 1rem;
+	box-shadow: 0 0.04rem 0.08rem 0.03rem #22b1ef;
+	background-color: #fff;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	padding-left: 0.24rem;
+	padding-right: 0.24rem;
+}
+.bottom .shop{
+	width: 0.92rem;
+	height: 0.92rem;
+	background-image: url('../img/店铺详情页购物车.png');
+	background-repeat: no-repeat;
+	background-size: 0.92rem 0.92rem;
+	left: 0.24rem;
+	margin-bottom: 0.33rem;
+}
+.bottom span{
+	font-size: 0.24rem;
+	color: #f23e2c;
+	position: absolute;
+	top: 0.18rem;
+	left: 1.4rem;
+	z-index: 10;
+}
+.bottom .zf{
+	display: block;
+	width: 1.7rem;
+	height: 0.65rem;
+	position: absolute;
+	font-size: 0.3rem;
+	line-height: 0.61rem;
+	text-align: center;
+	color: #fff;
+	border-radius: 0.2rem;
+	background-color: #13a8ef;
+	border: 2px solid #71caf6;
+	right: 0.24rem;
+	top: 0.16rem;
+	z-index: 10;
+}
+.cover{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255,0.6);
+	position: fixed;
+	z-index: 999;
+}
+.cover .container{
+	width: 5.5rem;
+	height: 5.52rem;
+	background-color: #09a2ef;
+	margin: 0 auto;
+	border-radius: 0.3rem;
+	margin-top: 3rem;
+	background-image: url('../img/店铺图标.png');
+	background-repeat: no-repeat;
+	background-size: 5.5rem 3.13rem;
+}
+.cover .container img{
+	display: block;
+	position: absolute;
+	width: 2.14rem;
+	height: 2.39rem;
+	top: 6.13rem;
+	left: 1.6rem;
+}
+.cover .container a{
+	display: block;
+	position: absolute;
+	width: 1.5rem;
+	height: 0.65rem;
+	background-color: #fff;
+	font-size: 0.24rem;
+	color: #ffcc50;
+	border-radius: 0.3rem;
+	text-align: center;
+	line-height: 0.65rem;
+	top: 7.64rem;
+	right: 1.6rem;
+}

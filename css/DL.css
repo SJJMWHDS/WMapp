@@ -1,0 +1,205 @@
+/*
+* @Author: Mickey
+* @Date:   2018-08-14 20:31:44
+* @Last Modified by:   Mickey
+* @Last Modified time: 2018-08-14 22:40:36
+*/
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+.logo{
+	width: 2.47rem;
+	height: 3.66rem;
+	background-image: url('../img/登录1.png');
+	background-repeat: no-repeat;
+	background-size: 2.47rem 2.47rem;
+	background-position: center 1.19rem;
+	margin: 0 auto;
+	margin-bottom: 0.55rem;
+}
+.wel-dl{
+	display: block;
+	font-size: 0.24rem;
+	color: #d9d9d9;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 0.26rem;
+}
+.we-dl{
+	width: 1.91rem;
+	height: 0.2rem;
+	background-image: url('../img/登录2.png');
+	background-repeat: no-repeat;
+	background-size: 1.91rem 0.2rem;
+	margin: 0 auto;
+	margin-bottom: 1.1rem;
+}
+.list-w{
+	width: 4.87rem;
+	height: 1rem;
+	border: 0.04rem solid #eca61e;
+	background-color: #e5c649;
+	border-radius: 0.1rem;
+	margin: 0 auto;
+}
+.list{
+	width: 5.49rem;
+	height: 3.87rem;
+	border-radius: 0.2rem;
+	box-shadow: 0 0.05rem 0.09rem 0.08rem #d8d6d6;
+	margin: 0 auto;
+	margin-top: -0.8rem;
+	background-color: #fff;
+	z-index: 10;
+}
+.list .dot{
+	width: 0.43rem;
+	height: 0.11rem;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 0.55rem;
+}
+.list .dot li{
+	width: 0.11rem;
+	height: 0.11rem;
+	border-radius: 0.5rem;
+	margin-top: 0.29rem;
+}
+.list .dot li:nth-child(1){
+	background-color: #f4a8a8;
+}
+.list .dot li:nth-child(2){
+	background-color: #d1d1d1;
+}
+.list .id .word{
+	width: 0.21rem;
+	height: 0.07rem;
+	background-color: #48ace6;
+	border-radius: 0.035rem;
+	position: absolute;
+	top: 7.24rem;
+}
+.list .id input{
+	display: block;
+	width: 4.36rem;
+	height: 0.68rem;
+	font-size: 0.2rem;
+	color: #d1d1d1;
+	border-bottom: 0.03rem solid #eeeeee;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	margin: 0 auto;
+	background-image: url('../img/登录手机.png');
+	background-size: 0.19rem 0.29rem;
+	background-repeat: no-repeat;
+	background-position: center right;
+	margin-bottom: 0.2rem;
+}
+.list .password .word{
+	width: 0.21rem;
+	height: 0.07rem;
+	background-color: #48ace6;
+	border-radius: 0.035rem;
+	position: absolute;
+	top: 8.14rem;
+}
+.list .password input{
+	display: block;
+	width: 4.36rem;
+	height: 0.68rem;
+	font-size: 0.2rem;
+	color: #d1d1d1;
+	border-bottom: 0.03rem solid #eeeeee;
+	background-image: url('../img/登录密码.png');
+	background-size: 0.19rem 0.26rem;
+	background-repeat: no-repeat;
+	background-position: center right;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	margin: 0 auto;
+}
+.forget-pass{
+	width: 1.35rem;
+	height: 0.23rem;
+	background-image: url('../img/忘记密码.png');
+	background-repeat: no-repeat;
+	background-size: 0.24rem 0.23rem;
+	background-position: center left;
+	text-align: right;
+	line-height: 0.23rem;
+	font-size: 0.2rem;
+	color: #d1d1d1;
+	margin-left: 0.24rem;
+	margin-top: 0.24rem;
+}
+.forget-pass:hover{
+	color: #48ace6;
+}
+.zc{
+	display: block;
+	color: #d1d1d1;
+	font-size: 0.2rem;
+	margin-right: 0.6rem;
+	margin-top: -0.28rem;
+	float: right;
+}
+.zc:hover{
+	color: #48ace6;
+}
+.enter{
+	display: block;
+	width: 2.02rem;
+	height: 0.47rem;
+	margin: 0 auto;
+	background-color: #ebebeb;
+	border-radius: 0.25rem;
+	margin-top: -0.2rem;
+	text-align: center;
+	line-height: 0.47rem;
+	font-size: 0.3rem;
+	color: #fff;
+	margin-bottom: 0.85rem;
+}
+.enter:hover{
+	background-color: #30e4b1;
+}
+.bottom{
+	width: 3.5rem;
+	height: 0.71rem;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.bottom li{
+	width: 0.71rem;
+	height: 0.71rem;
+	border-radius: 0.5rem;
+	box-shadow: 0 0.03rem 0.1rem 0.07rem rgba(217, 214, 214, 0.6)
+}
+.bottom li:nth-child(1){
+	background-image: url('../img/登录qq.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 0.38rem 0.38rem;
+}
+.bottom li:nth-child(2){
+	background-image: url('../img/登录微信.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 0.44rem 0.35rem;
+}
+.bottom li:nth-child(3){
+	background-image: url('../img/登录新浪.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 0.45rem 0.37rem;
+}

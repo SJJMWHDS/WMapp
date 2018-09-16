@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>确认订单</title>
+        <link rel="stylesheet" href="css/rem.css">
+        <link rel="stylesheet" href="css/enterd.css">
+		<script src="js/jquery-3.3.1.min.js"></script>
+    </head>
+    <body>
+    	<div class="top">
+    		<a href="订餐.html" class="back"></a>
+    		<div class="title">
+    			<span>订单配送至</span>
+    			<span>家中</span><br>
+    			<span>太原市小店区XXX</span><br>
+    			<span>XX&nbsp;&nbsp;(先生)&nbsp;&nbsp;&nbsp;&nbsp;123456789</span>
+    			<div class="right"></div>
+    		</div>
+    	</div>
+    	<div class="center"></div>
+    	<div class="container"></div>
+    	<div class="contact"></div>
+    	<div class="bottom">
+    		<div class="title">￥40.00</div>
+    		<a href="javascript:;" class="desc">确认支付</a>
+    	</div>
+		<div class="contain">
+			<a href="javascript:;" class="back"></a>
+			<a href="javascript:;" class="next"></a>
+		</div>
+		<div class="cover"></div>
+		<div class="nice">
+			<a href="javascript:;" class="back"></a>
+			<a href="javascript:;" class="next"></a>
+		</div>
+		<div class="enter">
+			<a href="订餐.html" class="back"></a>
+			<a href="APP.html" class="next"></a>
+			<a href="订餐.html" class="past"></a>
+		</div>
+    </body>
+</html>
+<script>
+	let next=$(".bottom .desc");
+	let now=$(".contain");
+	let back=$(".contain .back");
+	let pirce=$(".contain .next");
+	let cover=$(".cover");
+	let nice=$(".nice");
+	let niceb=$(".nice .back");
+	let nicem=$(".nice .next");
+	let enter=$(".enter");
+    console.log(back);
+    next.click(function () {
+		now.fadeToggle("slow");
+    })
+	back.click(function () {
+		now.fadeToggle("slow");
+    })
+	pirce.click(function () {
+	    now.fadeToggle("slow");
+	    cover.fadeToggle("slow");
+	    nice.fadeToggle("slow");
+    })
+	niceb.click(function () {
+        now.fadeToggle("slow");
+        cover.fadeToggle("slow");
+        nice.fadeToggle("slow");
+    })
+	nicem.click(function () {
+        nice.fadeToggle("slow");
+        enter.fadeToggle("slow");
+    })
+
+</script>
